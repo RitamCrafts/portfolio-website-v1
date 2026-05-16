@@ -22,7 +22,7 @@ function IntroCard({data}) {
               <svg className="pt-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
               <div>{data.contact.email}</div>
             </a>
-            <a href={`https://www.google.com/maps/place/${data.contact.location.replaceAll(" ", "+")}/`} target="_blank" className="location cursor-pointer flex flex-row items-center gap-1 hover:text-orange-500">
+            <a href={`https://www.google.com/maps/place/${data.contact.location.replaceAll(" ", "+").replaceAll(",","")}/`} target="_blank" className="location cursor-pointer flex flex-row items-center gap-1 hover:text-orange-500">
               <svg className="pt-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
               <div>{data.contact.location}</div>
             </a>

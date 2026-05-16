@@ -25,13 +25,11 @@ const data={
         featured:[],
         other:[],
     },
-    more:{
-        aboutMe: "I'm a B.Tech Information Technology student at Techno Main Salt Lake passionate about building modern web applications and improving my technical skills. I have working knowledge of C, Java, Python, and basic SQL, along with experience designing responsive and user-focused interfaces. As a fast learner who adapts quickly to new technologies, I aim to grow into a skilled software professional capable of contributing to impactful real-world projects.",
-        skills: {
+    skills: {
             core:["HTML","CSS","Tailwind CSS","JavaScript","React","Java"],
             additional:["C","Python","MySQL"]
         },
-        education:[
+    education:[
         {
                 name:"Bachelor of Technology in Information Technology",
                 institution:"Techno Main Salt Lake, Kolkata",
@@ -48,7 +46,7 @@ const data={
                 status:"Completed in 2023"
             }
         ],
-    }
+    aboutMe: "I'm a B.Tech Information Technology student at Techno Main Salt Lake passionate about building modern web applications and improving my technical skills. I have working knowledge of C, Java, Python, and basic SQL, along with experience designing responsive and user-focused interfaces. As a fast learner who adapts quickly to new technologies, I aim to grow into a skilled software professional capable of contributing to impactful real-world projects.",
 
 
 };
