@@ -1,5 +1,4 @@
 import React from 'react'
-import cover from "../assets/cover.jpg";
 
 function IntroCard({data}) {
 
@@ -48,7 +47,7 @@ function IntroCard({data}) {
         </div>
 
         <div className="photo-section shrink-0">
-          <img src={cover} className='h-[340px] w-[275px] overflow-hidden object-cover shrink-0 rounded-xl border border-gray-500 shadow-amber-600 shadow-3xl mx-auto md:mx-0'/>
+          <img src={data.general.photo} className='h-[340px] w-[275px] overflow-hidden object-cover shrink-0 rounded-xl border border-gray-500 shadow-amber-600 shadow-3xl mx-auto md:mx-0'/>
         </div>
 
       </div>
