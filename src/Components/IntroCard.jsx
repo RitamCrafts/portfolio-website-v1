@@ -1,8 +1,7 @@
 import React from 'react'
-import data from "../data"
 import cover from "../assets/cover.jpg";
 
-function IntroCard() {
+function IntroCard({data}) {
 
   
   return (
@@ -10,7 +9,9 @@ function IntroCard() {
       <div className="flex flex-col-reverse md:flex-row gap-x-14 gap-y-7 justify-between items-center">
 
         <div className="text-section max-w-150 flex flex-col items-center lg:items-start">
-          <div className='text-orange-400 mt-3 mb-4 p-1 pr-3 pl-2 rounded-full text-sm bg-orange-950 w-fit'>&#128075; Hello, I'm</div>
+
+
+          <div className='text-orange-400 mt-3 mb-4 p-1 pr-3 pl-2 rounded-full text-sm bg-orange-500/20 w-fit'>&#128075; Hello, I'm</div>
           <div className='Name block text-center md:text-left mb-1'><h1 className='text-5xl text-center md:text-left font-stretch-semi-condensed font-bold bg-linear-to-br from-orange-400 to-orange-600 bg-clip-text text-transparent inline-block'>{data.general.name}</h1></div>
           <h2 className='text-3xl mb-3 text-center md:text-left text-orange-500 '>{data.general.profession}</h2>
           <p className='text-slate-400 text-center lg:text-left'>
@@ -18,14 +19,14 @@ function IntroCard() {
           </p>
 
           <div className="email-loc flex flex-row gap-x-8 gap-y-3 mt-7 mb-6 flex-wrap justify-center">
-            <div className="email flex flex-row items-center gap-1 hover:text-orange-500">
+            <a href={`mailto:${data.contact.email}`} target="_blank" className="email cursor-pointer flex flex-row items-center gap-1 hover:text-orange-500">
               <svg className="pt-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
               <div>{data.contact.email}</div>
-            </div>
-            <div className="location flex flex-row items-center gap-1 hover:text-orange-500">
+            </a>
+            <a href={`https://www.google.com/maps/place/${data.contact.location.replaceAll(" ", "+")}/`} target="_blank" className="location cursor-pointer flex flex-row items-center gap-1 hover:text-orange-500">
               <svg className="pt-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
               <div>{data.contact.location}</div>
-            </div>
+            </a>
           </div>
 
           <div className='connect-links-container flex gap-3'>
@@ -41,6 +42,8 @@ function IntroCard() {
             </a>
 
           </div>
+
+
 
         </div>
 

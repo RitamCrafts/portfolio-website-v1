@@ -8,7 +8,8 @@ function App() {
   return (
     <> 
       <div className="Portfolio bg-[#0f1419] text-slate-400 min-h-screen w-full pt-20">
-        <DefaultCard type={"introCard"} />
+        <DefaultCard type={"introCard"} data={data}/>
+        <DefaultCard type={"aboutMe"} data={data}/>
       </div>
     </>
   )
