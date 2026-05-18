@@ -22,15 +22,60 @@ const data={
         availibility: false, 
     },
     projects:{
-        featured:[],
-        other:[],
+        featured:[
+            {
+                title:"Rush Weather",
+                desc:"My first weather app which finds weather of a place and location in a responsive UI.",
+                techStack:["HTML","CSS","JavaScript","API"],
+                link:"https://rush-weather-v2.vercel.app/"
+            },
+            {
+                title:"Hand Cricket",
+                desc:"A game which simulates a very common game among children and teens in India with a bot.",
+                techStack:["HTML","CSS","JavaScript"],
+                link:"https://ritamcrafts.github.io/Hand-Cricket/"
+            },
+            {
+                title:"Password Generator",
+                desc:"A simple, yet powerfull random password generator with real time interaction.",
+                techStack:["HTML","JavaScript","TailwindCSS","ReactJS"],
+                link:"https://password-generator-reactjs-theta.vercel.app/"
+            }
+        ],
+        other:[
+            {
+                title:"Youtube GUI replica",
+                desc:"My first web app made with just basics of web development.",
+                techStack:["HTML","CSS"],
+                link:"https://ritamcrafts.github.io/Youtube-GUI-replica/"
+            },
+            {
+                title:"First Simple Calculator",
+                desc:"A simple calculator made by me to learn JavaScript fundamentals.",
+                techStack:["HTML","CSS","JavaScript"],
+                link:"https://ritamcrafts.github.io/first-simple-calculator/"
+            },
+            {
+                title:"Crypt",
+                desc:"A simple application that encrypts a text to a custom encryption made by me and de-encrypts it, which I made in class 10.",
+                techStack:["Java"],
+                link:"https://github.com/RitamCrafts/Crypt-java"
+            },
+            {
+                title:"BG changer",
+                desc:"A simple BG changer made with more advanced tools.",
+                techStack:["HTML","CSS","JavaScript","ReactJS","TailwindCSS"],
+                link:"https://bg-changer-with-react-coral.vercel.app/"
+            },
+
+        ]
     },
     skills: {
             core:["HTML","CSS","Tailwind CSS","JavaScript","React","Java"],
             additional:["C","Python","MySQL"]
         },
     education:[
-        {
+            {
                 name:"Bachelor of Technology in Information Technology",
                 institution:"Techno Main Salt Lake, Kolkata",
                 status:"2025 - Present"

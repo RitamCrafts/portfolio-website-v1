@@ -2,6 +2,7 @@ import React from 'react'
 import IntroCard from './IntroCard'
 import AboutMe from './AboutMe';
 import Skills from './Skills';
+import Education from './Education';
 
 function DefaultCard({type,data}) {
     const uses=["introCard","aboutMe","skills","education"];
@@ -11,7 +12,7 @@ function DefaultCard({type,data}) {
                 {type === uses[0] ? <IntroCard data={data}/> : null}
                 {type === uses[1] ? <AboutMe data={data}/> : null}
                 {type === uses[2] ? <Skills data={data}/> : null}
-                {type === uses[3] ? null : null}
+                {type === uses[3] ? <Education data={data} education={data.education}/> : null}
             </div>
         </div>
     )
