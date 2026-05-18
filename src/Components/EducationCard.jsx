@@ -1,11 +1,14 @@
 import React from 'react'
 
-function EducationCard() {
+function EducationCard({educationDetails}) {
   return (
-    <div className='flex gap-5'>
-      <div className="line w-1.5 bg-orange-600/50">
-        
-      </div>
+    <div className='flex gap-5 justify-start items-stretch'>
+        <div className="line w-1 bg-orange-600/50" />
+        <div className='flex flex-col justify-between gap-1'>
+            <h3 class="text-xl font-semibold text-white">{educationDetails.name}</h3>
+            <p class="text-orange-400">{educationDetails.institution}</p>
+            <p class="text-sm text-slate-500">{educationDetails.status}</p>
+        </div>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import DefaultCard from './Components/DefaultCard'
 import data from './data'
 import Projects from './Components/Projects'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -15,6 +16,8 @@ function App() {
         <DefaultCard type={"skills"} data={data}/>
         <Projects projects={data.projects}/>
         <DefaultCard type={"education"} data={data}/>
+        <div className='mb-13'/>
+        <Footer/>
       </div>
     </>
   )
