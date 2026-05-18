@@ -17,7 +17,7 @@ function ScrollToTop() {
     <>
       {showButton && (
         <button
-          className="fixed bottom-4 right-4 z-50 p-3 rounded-full shadow-2xl transition-all hover:scale-110 bg-orange-500 hover:bg-orange-600 text-white"
+          className="fixed bottom-4 cursor-pointer right-4 z-50 p-3 rounded-full shadow-2xl transition-all hover:scale-110 bg-orange-500 hover:bg-orange-600 text-white"
           aria-label="Scroll to top"
           onClick={() => {
             history.replaceState(null, "", " ");

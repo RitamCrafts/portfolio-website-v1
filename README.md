@@ -1,16 +1,76 @@
-# React + Vite
+# Ritam Mandal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built using React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive modern UI
+- Project showcase section
+- Skills and education section
+- Contact and social links
+- React component-based structure
+- Tailwind CSS styling
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ReactJS
+- JavaScript
+- Tailwind CSS
+- HTML5
+- CSS3
 
-## Expanding the ESLint configuration
+## Projects Included
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Rush Weather
+- Hand Cricket
+- Password Generator
+- Youtube GUI Replica
+- Crypt
+- BG Changer
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/RitamCrafts/your-repo-name.git
+```
+
+Go to project directory:
+
+```bash
+cd your-repo-name
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+## Folder Structure
+
+```txt
+src/
+ ├── Components/
+ ├── assets/
+ ├── utils/
+ ├── App.jsx
+ └── main.jsx
+```
+
+## Contact
+
+- Email: ritamrm1157@gmail.com
+- GitHub: RitamCrafts
+- LinkedIn: itzritamm
+
+## License
+
+This project is open source and available under the MIT License.
