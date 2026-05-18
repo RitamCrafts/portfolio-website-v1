@@ -10,7 +10,7 @@ function AboutMe({data}) {
         <h1 className='text-4xl text-white font-bold '>About Me</h1>
       </div>
 
-      <p className="about-me-text text-[15px] mr-12">
+      <p className="about-me-text text-[15px] mr-4 md:mr-12">
         {data.aboutMe}
       </p>
     </div>

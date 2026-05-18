@@ -5,7 +5,7 @@ function ScrollToTop() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setShowButton(window.scrollY > 300);
+      setShowButton(window.scrollY > 350);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -18,7 +18,9 @@ function ScrollToTop() {
       {showButton && (
         <button
           className="fixed bottom-4 right-4 z-50 p-3 rounded-full shadow-2xl transition-all hover:scale-110 bg-orange-500 hover:bg-orange-600 text-white"
+          aria-label="Scroll to top"
           onClick={() => {
+            history.replaceState(null, "", " ");
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
         >
