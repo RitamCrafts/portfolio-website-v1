@@ -4,7 +4,7 @@ import AdditionalSkillCard from './AdditionalSkillCard'
 
 function Skills({data}) {
   return (
-    <div>
+    <div id="Skills" className='scroll-mt-28'>
         <div className="heading flex flex-row justify-left items-center gap-3 mb-7">
             <div className="about-me-icon bg-blue-500/10 h-12 w-12 rounded-lg flex justify-center items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-xml text-blue-500" data-fg-d3bl150="0.8:43.2159:/src/app/App.tsx:483:15:21464:45:e:Code2::::::Oap" data-fgid-d3bl150=":r1t:"><path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 4"></path><path d="m14.5 4-5 16"></path></svg>

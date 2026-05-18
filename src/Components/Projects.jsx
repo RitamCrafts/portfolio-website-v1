@@ -6,7 +6,7 @@ function FeaturedProjects({projects}) {
   const [showAll,setShowAll]=useState(false);
   let projectsShown= (!showAll)?projects.featured:[...projects.featured,...projects.other];
   return (
-    <div>
+    <div id="Projects" className='scroll-mt-20'>
       <div className='mt-7 lg:mx-auto max-w-250 mx-6'>
         <div className="heading flex flex-row justify-left items-center gap-3 mb-6">
               <div className="about-me-icon bg-orange-500/10 h-12 w-12 rounded-lg flex justify-center items-center">
