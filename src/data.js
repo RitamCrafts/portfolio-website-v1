@@ -36,13 +36,20 @@ const data={
                 link:"https://ritamcrafts.github.io/Hand-Cricket/"
             },
             {
+                title:"Retro Exchange",
+                desc:"A real time currency rate conversion web app.",
+                techStack:["HTML","JavaScript","TailwindCSS","ReactJS"],
+                link:"https://retro-exchange.vercel.app/"
+            },
+
+        ],
+        other:[
+            {
                 title:"Password Generator",
                 desc:"A simple, yet powerfull random password generator with real time interaction.",
                 techStack:["HTML","JavaScript","TailwindCSS","ReactJS"],
                 link:"https://password-generator-reactjs-theta.vercel.app/"
-            }
-        ],
-        other:[
+            },
             {
                 title:"Youtube GUI replica",
                 desc:"My first web app made with just basics of web development.",
