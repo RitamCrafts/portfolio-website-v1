@@ -18,7 +18,7 @@ function Header({data}) {
                     
                     {
                         sections.map((section)=>(
-                            <a href={`#${section}`} className="text-sm hover:text-orange-500 transition-colors text-slate-300">
+                            <a href={`#${section}`} key={section} className="text-sm hover:text-orange-500 transition-colors text-slate-300">
                                 {section}
                             </a>
                         ))
