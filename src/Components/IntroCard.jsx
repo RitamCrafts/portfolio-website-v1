@@ -47,7 +47,7 @@ function IntroCard({data}) {
         </div>
 
         <div className="photo-section shrink-0">
-          <img src={data.general.photo} className='h-85 w-68.75 overflow-hidden object-cover shrink-0 rounded-xl border border-gray-500 shadow-amber-600 shadow-3xl mx-auto md:mx-0'/>
+          <img src={data.general.photo} className='h-85 w-68.75 overflow-hidden object-top object-cover shrink-0 rounded-xl border border-gray-500 shadow-amber-600 shadow-3xl mx-auto md:mx-0'/>
         </div>
 
       </div>
