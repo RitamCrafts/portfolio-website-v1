@@ -1,6 +1,6 @@
 import AboutMe from "./Components/AboutMe.jsx";
 import {ageCalc} from "./utils/ageCalc.js";
-import photo from "/src/assets/Decent1.png";
+import photo from "/src/assets/Decent2.png";
 
 const birthDate = new Date("2007-05-11");
 const data={
@@ -9,7 +9,7 @@ const data={
         birthDate,
         age: ageCalc(birthDate),
         profession: "Student",
-        photoLink:"/src/assets/"+"Decent1.png",
+        photoLink:"/src/assets/"+"Decent2.png",
         photo:photo,
         work: "I am a college student, who can build responsive front-end web applications with React with many features."
     },
